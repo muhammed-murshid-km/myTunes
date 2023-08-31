@@ -1,0 +1,142 @@
+
+.navbar {
+    background-color: #270082;
+    height: 13vh;
+    width: 100%;
+}
+
+.hdd {
+    background-image: url(hss1.png);
+    background-position: center;
+    height: 130vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hdd h1 {
+    font-size: 100px;
+}
+
+.music {
+    background-color: #281154;
+    height: 81vh;
+    margin-top: -100px;
+}
+
+.hdd1 {
+    margin-top: 65vh;
+}
+
+.hdd2 {
+    background-image: url(hss4.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 210px;
+}
+
+.hdd3 {
+    background-color: #1b0058;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.hpp {
+    margin-left: -130px;
+}
+
+.hdd4 a {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.hdd4 {
+    margin-left: 120px;
+}
+
+.hdd5 {
+    background-color: #270082;
+    padding: 30px;
+}
+
+@media screen and (max-width:450px) {
+    .trr h1{
+        font-size:75PX ;
+    }
+    .hdd1 {
+        margin-top: 30vh;
+        width: 58vh;
+    }
+
+    .hpp {
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 58vh;
+    }
+
+    .hdd4 {
+        margin-left: 10px;
+    }
+
+    .hj {
+        padding-top: 50px;
+    }
+
+    .wgg {
+        display: none;
+    }
+    .music{
+        height: 72vh;
+        width: 58vh;
+    }
+    .hdd{
+        width: 58vh;
+    }
+    .hdd2{
+        width: 58vh; 
+    }
+    .yuu{
+        width: 58vh;
+    }
+    .hdd3{
+        width: 58vh;
+    }
+    .hdd5{
+        width: 58vh; 
+    }
+}
+ @media screen and (orientation: landscape) and (max-width:992px){
+    .navbar {
+      width:223vh;
+    }
+    .music{
+        margin-top: 0px;
+        height: 160vh;
+    }
+    .hdd2 {
+        height: 150vh;
+    }
+    .hpp {
+        margin-left: 0px;
+    }
+    .wgg {
+        display: none;
+    }
+    .hj {
+        padding-top: 50px;
+    }
+    .hdd4 {
+        margin-left: 10px;
+    }
+    .trr h1{
+        font-size:80PX ;
+    }
+
+
+}
